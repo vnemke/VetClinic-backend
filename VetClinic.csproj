@@ -1,0 +1,67 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Services\AnimalRepository.cs" />
+    <Content Include="Services\AuthRepository.cs" />
+    <Content Include="Services\CaseRepository.cs" />
+    <Content Include="Services\ControlRepository.cs" />
+    <Content Include="Services\IAnimalRepository.cs" />
+    <Content Include="Services\IAuthRepository.cs" />
+    <Content Include="Services\ICaseRepository.cs" />
+    <Content Include="Services\IControlRepository.cs" />
+    <Content Include="Services\IOwnerRepository.cs" />
+    <Content Include="Services\IPetRepository.cs" />
+    <Content Include="Services\IPetServiceRepository.cs" />
+    <Content Include="Services\IRaceRepository.cs" />
+    <Content Include="Services\IRoleRepository.cs" />
+    <Content Include="Services\ITherapyRepository.cs" />
+    <Content Include="Services\IUserRepository.cs" />
+    <Content Include="Services\IVetRepository.cs" />
+    <Content Include="Services\IXrayRepository.cs" />
+    <Content Include="Services\OwnerRepository.cs" />
+    <Content Include="Services\PetRepository.cs" />
+    <Content Include="Services\PetServiceRepository.cs" />
+    <Content Include="Services\RaceRepository.cs" />
+    <Content Include="Services\RoleRepository.cs" />
+    <Content Include="Services\TherapyRepository.cs" />
+    <Content Include="Services\UserRepository.cs" />
+    <Content Include="Services\VetClinicProfile.cs" />
+    <Content Include="Services\VetRepository.cs" />
+    <Content Include="Services\XrayRepository.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="DotNetEnv" Version="2.3.0" />
+    <PackageReference Include="FluentEmail.Mailgun" Version="3.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="6.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.2" />
+   
+    <PackageReference Include="MySql.Data" Version="8.0.28" />
+    <PackageReference Include="MySqlConnector" Version="2.1.8" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="6.0.1" />
+    <PackageReference Include="RestSharp" Version="107.3.0" />
+    <PackageReference Include="Stripe.net" Version="39.95.0" />
+    <PackageReference Include="System.Net.Http.Json" Version="6.0.0" />
+	<PackageReference Include="Microsoft.AspNetCore.JsonPatch" Version="6.0.2" />
+	<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.2">
+	  <PrivateAssets>all</PrivateAssets>
+	  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	</PackageReference>
+	  <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+</Project>
